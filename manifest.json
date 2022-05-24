@@ -2,7 +2,7 @@
     "name": "yekodo",
     "short_name": "yekodo",
     "start_url": ".",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "an app for your children",
