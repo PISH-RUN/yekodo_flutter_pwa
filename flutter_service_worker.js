@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5f7c8989d94c4182bf31b1e22d7ae1c5",
+  "assets/AssetManifest.json": "e752d92c169fa1f898be5293edbe22cf",
 "assets/FontManifest.json": "1a3d39591d22e8804b90a480dcb2ef31",
 "assets/fonts/iran_sans_dn_fa_num.ttf": "72d6571ac2c9cd4e2c95103595454e1b",
 "assets/fonts/iran_sans_dn_fa_num_bold.ttf": "64e033f99f8b95953df125f88cee8268",
@@ -19,6 +19,8 @@ const RESOURCES = {
 "assets/images/animations/not_valid_time_robot.json": "f377d3eb0bb5367ff1e1d62e643d1b8c",
 "assets/images/animations/player.gif": "51b283fe4ac44fbd6e21126345e1773a",
 "assets/images/animations/player.json": "0ef764cf086420b97df3474b1fab479b",
+"assets/images/animations/warning.json": "4429570733e6af9451f29f2a58adf88a",
+"assets/images/ball.svg": "ee6c7b9fa6d6ed0dfe0ba92772c2320b",
 "assets/images/boy.png": "694980f0db3468a8e9b836eb370c6a98",
 "assets/images/boy_with_circle.png": "ed888fd8529333bc57ab3598044e52ce",
 "assets/images/cloud.png": "b9c270494bc6e4b98eda79679d7e3f3a",
@@ -1367,6 +1369,13 @@ const RESOURCES = {
 "assets/images/logo.png": "e12b76db915070a45b6240c4e165b089",
 "assets/images/logout.svg": "814f52a2e6bf8c8dd8ea1fc4421f32af",
 "assets/images/logo_original.png": "5ea05e94414a802e364404e7c17cd44b",
+"assets/images/night.png": "21767db685d136660c9174c869830b37",
+"assets/images/onboarding/slide_0.json": "e03166e0edf09fde323b284a7f8a0868",
+"assets/images/onboarding/slide_1.json": "be1af48ee661693685dfeb7a10cd8851",
+"assets/images/onboarding/slide_2.json": "f9e04bc0d4d474e46b0fd3690c4bc14c",
+"assets/images/onboarding/slide_3.json": "60fed9879ba1807aaed1278b8473300f",
+"assets/images/onboarding/slide_4.json": "9e2c84bfe7ab80fdecb682fe6cde82b5",
+"assets/images/onboarding/slide_5.json": "578e81c3cf4b46a7c5cb429529e0646c",
 "assets/images/program/book.svg": "7720b7d1d1986801c8027e48edc73cf1",
 "assets/images/program/film.svg": "152e7bdbb21164cbd3dbb93e013b0b01",
 "assets/images/program/game_controller_outline.svg": "1b08da9b45cf4b2573a3479f81d3571b",
@@ -1380,26 +1389,27 @@ const RESOURCES = {
 "assets/images/robot_study.png": "19f1e972a4e194843e8c8cb599c8beee",
 "assets/images/setting.png": "d174f67f90262295bffc412e4d4f3d5a",
 "assets/images/shopping_cart.svg": "5e548b2d44dd6b4a6950f2053d5faa44",
-"assets/NOTICES": "fd813cea468e4e73397bf677bceb9b2f",
+"assets/NOTICES": "b9951fbf6c9697c3961f0631b4674917",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "aa1ec80f1b30a51d64c72f669c1326a7",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "ae6c1fd6f6ee6ee952cde379095a8f3f",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.ico": "ad76bd55ca116131bb17bbe7878ad80b",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "44621ece8cf5f49a89858fb69edc60f4",
 "icons/Icon-512.png": "3deb949bed8ff07497554a8b7f30fcab",
 "icons/Icon-maskable-192.png": "9425e999ed4199d1abf3ca26756405ca",
 "icons/Icon-maskable-512.png": "06fa91964dcc32ff646486aa55587f6b",
-"index.html": "cce2c3e87b7df3de35875a942ec85485",
-"/": "cce2c3e87b7df3de35875a942ec85485",
-"main.dart.js": "3093117e3a0ea5931d8b490fb0e9e2d8",
+"index.html": "6a7ca73c6c445e959210432729f18cc9",
+"/": "6a7ca73c6c445e959210432729f18cc9",
+"main.dart.js": "8e7ceaee981daee2cd190caf7b81e00c",
 "manifest.json": "4e87d8b47e12a92c12ee3e613e6ffac6",
 "splash/img/dark-1x.png": "a053da5d22a84dcebea08086ba83dcf3",
 "splash/img/dark-2x.png": "44621ece8cf5f49a89858fb69edc60f4",
@@ -1411,7 +1421,7 @@ const RESOURCES = {
 "splash/img/light-4x.png": "3deb949bed8ff07497554a8b7f30fcab",
 "splash/splash.js": "f6ee10f0a11f96089a97623ece9a1367",
 "splash/style.css": "51b32c588e8ab99802e494f95e0caaed",
-"version.json": "dbae51cba9be2646719aea7e297d0f08"
+"version.json": "fa974d32b4f8df501207df3942c348a0"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -1419,7 +1429,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -1518,9 +1527,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
